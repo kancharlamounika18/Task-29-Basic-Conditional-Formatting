@@ -1,0 +1,7 @@
+Column,Rule,Purpose,Visual Result,Excel Rule Type
+Sales,Top 10 values,Automatically highlight the ten highest transaction sales.,Green fill,Top10
+Profit,Bottom 10 values,Automatically highlight the ten lowest transaction profits.,Red fill,Bottom10
+Profit,Negative values,Flag loss-making transactions where Profit < 0.,Red text / light red fill,CellIs < 0
+Discount,Color scale,Show low-to-high discount levels using a 3-color scale.,Green → Yellow → Red,ColorScale
+Quantity,Data bar,Compare item quantities using proportional data bars.,Blue data bars,DataBar
+Sales,Top 10%,Highlight the highest-sales 10% of transactions.,Gold fill,Top10Percent
